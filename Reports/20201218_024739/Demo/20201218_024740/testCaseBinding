@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/Login_ValidUserNameInvalidPassword","testCaseId":"Test Cases/Login_ValidUserNameInvalidPassword"}
+{"testCaseName":"Test Cases/Login_ValidUserNameValidPassword","testCaseId":"Test Cases/Login_ValidUserNameValidPassword"}
+{"testCaseName":"Test Cases/PlaceOrder_DifferentZipCode - Iteration 1","testCaseId":"Test Cases/PlaceOrder_DifferentZipCode","bindedValues":{"zip":"\u002796785\u0027","firstName":"\u0027UI\u0027","lastName":"\u0027Tester1\u0027","testID":"\u00271\u0027"}}
+{"testCaseName":"Test Cases/PlaceOrder_DifferentZipCode - Iteration 2","testCaseId":"Test Cases/PlaceOrder_DifferentZipCode","bindedValues":{"zip":"\u002799587\u0027","firstName":"\u0027UI\u0027","lastName":"\u0027Tester2\u0027","testID":"\u00272\u0027"}}
+{"testCaseName":"Test Cases/PlaceOrder_DifferentZipCode - Iteration 3","testCaseId":"Test Cases/PlaceOrder_DifferentZipCode","bindedValues":{"zip":"\u0027\u0027"}}

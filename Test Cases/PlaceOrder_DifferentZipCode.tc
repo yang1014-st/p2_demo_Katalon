@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PlaceOrder_DifferentZipCode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1c7518e0-89f7-45dc-80c6-f716d35f2807</testCaseGuid>
+   <variable>
+      <defaultValue>'UI'</defaultValue>
+      <description></description>
+      <id>61dc94eb-860d-46c1-84bf-594f578c1966</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Tester'</defaultValue>
+      <description></description>
+      <id>d4ac32a1-fc4c-42f7-bf1d-72944e005101</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'55126'</defaultValue>
+      <description></description>
+      <id>ed631d1f-4a48-44fd-a123-2afb4ee12b06</id>
+      <masked>false</masked>
+      <name>zip</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>959b6b48-21d1-41c0-82bc-71bad3e92fda</id>
+      <masked>false</masked>
+      <name>testID</name>
+   </variable>
+</TestCaseEntity>

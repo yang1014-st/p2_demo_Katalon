@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo" time="358.571" tests="8" failures="2" skips="0" errors="0">
+   <testsuite name="Demo" tests="8" failures="2" errors="0" time="358.571" skips="0" timestamp="2020-12-18 02:29:27" hostname="young - 10.0.0.57" id="Test Suites/Demo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\young\\Desktop\\Master of Software Engineering\\SEIS635_SoftwareAnalysisandDesign\\KatalonStudio_Project\\Google_CreateNewAccount\\Reports\\20201218_022922\\Demo\\20201218_022922"/>
+         <property name="logFiles" value="C:\\Users\\young\\Desktop\\Master of Software Engineering\\SEIS635_SoftwareAnalysisandDesign\\KatalonStudio_Project\\Google_CreateNewAccount\\Reports\\20201218_022922\\Demo\\20201218_022922\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\young\\Desktop\\Master of Software Engineering\\SEIS635_SoftwareAnalysisandDesign\\KatalonStudio_Project\\Google_CreateNewAccount\\Reports\\20201218_022922\\Demo\\20201218_022922\\Screenshots/screenshotAfterLogin18Dec2020_022946.png"/>
+         <property name="hostName" value="young - 10.0.0.57"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.1.208"/>
+         <property name="browser" value="Chrome 87.0.4280.88"/>
+         <property name="hostAddress" value="10.0.0.57"/>
+         <property name="sessionId" value="f7584e36a9a725ad19e52ecfdfb316a9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_ValidUserNameInvalidPassword" time="9.778" classname="Test Cases/Login_ValidUserNameInvalidPassword" status="PASSED">
+         <system-out><![CDATA[2020-12-18 02:29:29 - [TEST_CASE][PASSED] - Test Cases/Login_ValidUserNameInvalidPassword: Test Cases/Login_ValidUserNameInvalidPassword
+
+2020-12-18 02:29:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-12-18 02:29:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 02:29:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 02:29:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-18 02:29:34 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2020-12-18 02:29:35 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2020-12-18 02:29:35 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/input_UserName"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/LoginPage/input_UserName'
+
+2020-12-18 02:29:36 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/LoginPage/input_UserName'
+
+2020-12-18 02:29:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("LoginPage/input_Password"), "vOA0cDqQbrFcFaFUEJlNrQ=="): Text ****** has been set on object 'Object Repository/LoginPage/input_Password'
+
+2020-12-18 02:29:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/input_Password'
+
+2020-12-18 02:29:37 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/button_Login")): Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2020-12-18 02:29:37 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2020-12-18 02:29:37 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/message_UseNameAndPasswordDoNotMatch")): Object: 'Object Repository/LoginPage/message_UseNameAndPasswordDoNotMatch' is clicked on
+
+2020-12-18 02:29:38 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/message_UseNameAndPasswordDoNotMatch' is clicked on
+
+2020-12-18 02:29:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 02:29:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_ValidUserNameValidPassword" time="18.791" classname="Test Cases/Login_ValidUserNameValidPassword" status="PASSED">
+         <system-out><![CDATA[2020-12-18 02:29:38 - [TEST_CASE][PASSED] - Test Cases/Login_ValidUserNameValidPassword: Test Cases/Login_ValidUserNameValidPassword
+
+2020-12-18 02:29:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-12-18 02:29:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 02:29:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 02:29:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-18 02:29:43 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2020-12-18 02:29:44 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2020-12-18 02:29:44 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/input_UserName"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/LoginPage/input_UserName'
+
+2020-12-18 02:29:44 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/LoginPage/input_UserName'
+
+2020-12-18 02:29:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("LoginPage/input_Password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/LoginPage/input_Password'
+
+2020-12-18 02:29:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/input_Password'
+
+2020-12-18 02:29:45 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/button_Login")): Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2020-12-18 02:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2020-12-18 02:29:46 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-12-18 02:29:46 - [TEST_STEP][PASSED] - todaysDate = today.format("ddMMMyyyy"): null
+
+2020-12-18 02:29:46 - [TEST_STEP][PASSED] - nowTime = today.format("HHmmss"): null
+
+2020-12-18 02:29:46 - [TEST_STEP][PASSED] - takeFullPageScreenshot("Screenshots/screenshotAfterLogin" + todaysDate + "_" + nowTime + ".png"): Taking screenshot successfully
+
+2020-12-18 02:29:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\young\\Desktop\\Master of Software Engineering\\SEIS635_SoftwareAnalysisandDesign\\KatalonStudio_Project\\Google_CreateNewAccount\\Reports\\20201218_022922\\Demo\\20201218_022922\\Screenshots/screenshotAfterLogin18Dec2020_022946.png]]
+
+2020-12-18 02:29:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 02:29:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PlaceOrder_DifferentZipCode" time="17.366" classname="Test Cases/PlaceOrder_DifferentZipCode" status="PASSED">
+         <system-out><![CDATA[2020-12-18 02:29:57 - [TEST_CASE][PASSED] - Test Cases/PlaceOrder_DifferentZipCode: Test Cases/PlaceOrder_DifferentZipCode
+
+2020-12-18 02:29:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-12-18 02:29:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 02:29:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 02:30:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-18 02:30:02 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2020-12-18 02:30:02 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2020-12-18 02:30:02 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/input_UserName"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/LoginPage/input_UserName'
+
+2020-12-18 02:30:03 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/LoginPage/input_UserName'
+
+2020-12-18 02:30:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("LoginPage/input_Password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/LoginPage/input_Password'
+
+2020-12-18 02:30:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/input_Password'
+
+2020-12-18 02:30:04 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/button_Login")): Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2020-12-18 02:30:04 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2020-12-18 02:30:04 - [TEST_STEP][PASSED] - click(findTestObject("ProductCatalogPage/button_AddToOrder_SauceabsBackpack")): Object: 'Object Repository/ProductCatalogPage/button_AddToOrder_SauceabsBackpack' is clicked on
+
+2020-12-18 02:30:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductCatalogPage/button_AddToOrder_SauceabsBackpack' is clicked on
+
+2020-12-18 02:30:05 - [TEST_STEP][PASSED] - click(findTestObject("ProductCatalogPage/link_GoToCart")): Object: 'Object Repository/ProductCatalogPage/link_GoToCart' is clicked on
+
+2020-12-18 02:30:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductCatalogPage/link_GoToCart' is clicked on
+
+2020-12-18 02:30:08 - [TEST_STEP][PASSED] - click(findTestObject("YourCartPage/button_CheckOut")): Object: 'Object Repository/YourCartPage/button_CheckOut' is clicked on
+
+2020-12-18 02:30:09 - [MESSAGE][PASSED] - Object: 'Object Repository/YourCartPage/button_CheckOut' is clicked on
+
+2020-12-18 02:30:09 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformationPage/input_FirstName"), firstName): Text 'UI' is set on object 'Object Repository/YourInformationPage/input_FirstName'
+
+2020-12-18 02:30:09 - [MESSAGE][PASSED] - Text 'UI' is set on object 'Object Repository/YourInformationPage/input_FirstName'
+
+2020-12-18 02:30:09 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformationPage/input_LastName"), lastName): Text 'Tester1' is set on object 'Object Repository/YourInformationPage/input_LastName'
+
+2020-12-18 02:30:10 - [MESSAGE][PASSED] - Text 'Tester1' is set on object 'Object Repository/YourInformationPage/input_LastName'
+
+2020-12-18 02:30:10 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformationPage/input_ZipCode"), zip): Text '96785' is set on object 'Object Repository/YourInformationPage/input_ZipCode'
+
+2020-12-18 02:30:11 - [MESSAGE][PASSED] - Text '96785' is set on object 'Object Repository/YourInformationPage/input_ZipCode'
+
+2020-12-18 02:30:11 - [TEST_STEP][PASSED] - click(findTestObject("YourInformationPage/button_Continue")): Object: 'Object Repository/YourInformationPage/button_Continue' is clicked on
+
+2020-12-18 02:30:11 - [MESSAGE][PASSED] - Object: 'Object Repository/YourInformationPage/button_Continue' is clicked on
+
+2020-12-18 02:30:11 - [TEST_STEP][PASSED] - paymentInfo = getText(findTestObject("CheckoutPage/text_PaymentInfo")): Text of object 'Object Repository/CheckoutPage/text_PaymentInfo' is: 'SauceCard #31337'
+
+2020-12-18 02:30:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/CheckoutPage/text_PaymentInfo' is: 'SauceCard #31337'
+
+2020-12-18 02:30:12 - [TEST_STEP][PASSED] - shippingInfo = getText(findTestObject("CheckoutPage/text_ShippingInfo")): Text of object 'Object Repository/CheckoutPage/text_ShippingInfo' is: 'FREE PONY EXPRESS DELIVERY!'
+
+2020-12-18 02:30:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/CheckoutPage/text_ShippingInfo' is: 'FREE PONY EXPRESS DELIVERY!'
+
+2020-12-18 02:30:12 - [TEST_STEP][PASSED] - itemTotal = getText(findTestObject("CheckoutPage/text_ItemTotal")): Text of object 'Object Repository/CheckoutPage/text_ItemTotal' is: 'Item total: $29.99'
+
+2020-12-18 02:30:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/CheckoutPage/text_ItemTotal' is: 'Item total: $29.99'
+
+2020-12-18 02:30:12 - [TEST_STEP][PASSED] - tax = getText(findTestObject("CheckoutPage/text_Tax")): Text of object 'Object Repository/CheckoutPage/text_Tax' is: 'Tax: $2.40'
+
+2020-12-18 02:30:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/CheckoutPage/text_Tax' is: 'Tax: $2.40'
+
+2020-12-18 02:30:13 - [TEST_STEP][PASSED] - total = getText(findTestObject("CheckoutPage/text_Total")): Text of object 'Object Repository/CheckoutPage/text_Total' is: 'Total: $32.39'
+
+2020-12-18 02:30:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/CheckoutPage/text_Total' is: 'Total: $32.39'
+
+2020-12-18 02:30:13 - [TEST_STEP][PASSED] - click(findTestObject("CheckoutPage/button_Finish")): Object: 'Object Repository/CheckoutPage/button_Finish' is clicked on
+
+2020-12-18 02:30:14 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Finish' is clicked on
+
+2020-12-18 02:30:14 - [TEST_STEP][PASSED] - click(findTestObject("FinishPage/text_ThankYouForYourOrder")): Object: 'Object Repository/FinishPage/text_ThankYouForYourOrder' is clicked on
+
+2020-12-18 02:30:14 - [MESSAGE][PASSED] - Object: 'Object Repository/FinishPage/text_ThankYouForYourOrder' is clicked on
+
+2020-12-18 02:30:14 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-12-18 02:30:14 - [TEST_STEP][PASSED] - todaysDate = today.format("yyyMMMdd"): null
+
+2020-12-18 02:30:14 - [TEST_STEP][PASSED] - nowTime = today.format("HH:mms:s"): null
+
+2020-12-18 02:30:14 - [TEST_STEP][PASSED] - output = new java.io.File(output.txt): null
+
+2020-12-18 02:30:14 - [TEST_STEP][PASSED] - output.createNewFile(): null
+
+2020-12-18 02:30:14 - [TEST_STEP][PASSED] - text = text + $testID;$firstName;$lastName;$zip;$paymentInfo;$shippingInfo;$itemTotal;$tax;$total;$todaysDate;$nowTime
+: null
+
+2020-12-18 02:30:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 02:30:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PlaceOrder_DifferentZipCode" time="16.759" classname="Test Cases/PlaceOrder_DifferentZipCode" status="PASSED">
+         <system-out><![CDATA[2020-12-18 02:30:15 - [TEST_CASE][PASSED] - Test Cases/PlaceOrder_DifferentZipCode: Test Cases/PlaceOrder_DifferentZipCode
+
+2020-12-18 02:30:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-12-18 02:30:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 02:30:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 02:30:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-18 02:30:19 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2020-12-18 02:30:20 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2020-12-18 02:30:20 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/input_UserName"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/LoginPage/input_UserName'
+
+2020-12-18 02:30:21 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/LoginPage/input_UserName'
+
+2020-12-18 02:30:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("LoginPage/input_Password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/LoginPage/input_Password'
+
+2020-12-18 02:30:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/input_Password'
+
+2020-12-18 02:30:21 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/button_Login")): Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2020-12-18 02:30:22 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2020-12-18 02:30:22 - [TEST_STEP][PASSED] - click(findTestObject("ProductCatalogPage/button_AddToOrder_SauceabsBackpack")): Object: 'Object Repository/ProductCatalogPage/button_AddToOrder_SauceabsBackpack' is clicked on
+
+2020-12-18 02:30:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductCatalogPage/button_AddToOrder_SauceabsBackpack' is clicked on
+
+2020-12-18 02:30:22 - [TEST_STEP][PASSED] - click(findTestObject("ProductCatalogPage/link_GoToCart")): Object: 'Object Repository/ProductCatalogPage/link_GoToCart' is clicked on
+
+2020-12-18 02:30:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductCatalogPage/link_GoToCart' is clicked on
+
+2020-12-18 02:30:25 - [TEST_STEP][PASSED] - click(findTestObject("YourCartPage/button_CheckOut")): Object: 'Object Repository/YourCartPage/button_CheckOut' is clicked on
+
+2020-12-18 02:30:26 - [MESSAGE][PASSED] - Object: 'Object Repository/YourCartPage/button_CheckOut' is clicked on
+
+2020-12-18 02:30:26 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformationPage/input_FirstName"), firstName): Text 'UI' is set on object 'Object Repository/YourInformationPage/input_FirstName'
+
+2020-12-18 02:30:26 - [MESSAGE][PASSED] - Text 'UI' is set on object 'Object Repository/YourInformationPage/input_FirstName'
+
+2020-12-18 02:30:26 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformationPage/input_LastName"), lastName): Text 'Tester2' is set on object 'Object Repository/YourInformationPage/input_LastName'
+
+2020-12-18 02:30:27 - [MESSAGE][PASSED] - Text 'Tester2' is set on object 'Object Repository/YourInformationPage/input_LastName'
+
+2020-12-18 02:30:27 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformationPage/input_ZipCode"), zip): Text '99587' is set on object 'Object Repository/YourInformationPage/input_ZipCode'
+
+2020-12-18 02:30:28 - [MESSAGE][PASSED] - Text '99587' is set on object 'Object Repository/YourInformationPage/input_ZipCode'
+
+2020-12-18 02:30:28 - [TEST_STEP][PASSED] - click(findTestObject("YourInformationPage/button_Continue")): Object: 'Object Repository/YourInformationPage/button_Continue' is clicked on
+
+2020-12-18 02:30:28 - [MESSAGE][PASSED] - Object: 'Object Repository/YourInformationPage/button_Continue' is clicked on
+
+2020-12-18 02:30:28 - [TEST_STEP][PASSED] - paymentInfo = getText(findTestObject("CheckoutPage/text_PaymentInfo")): Text of object 'Object Repository/CheckoutPage/text_PaymentInfo' is: 'SauceCard #31337'
+
+2020-12-18 02:30:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/CheckoutPage/text_PaymentInfo' is: 'SauceCard #31337'
+
+2020-12-18 02:30:29 - [TEST_STEP][PASSED] - shippingInfo = getText(findTestObject("CheckoutPage/text_ShippingInfo")): Text of object 'Object Repository/CheckoutPage/text_ShippingInfo' is: 'FREE PONY EXPRESS DELIVERY!'
+
+2020-12-18 02:30:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/CheckoutPage/text_ShippingInfo' is: 'FREE PONY EXPRESS DELIVERY!'
+
+2020-12-18 02:30:29 - [TEST_STEP][PASSED] - itemTotal = getText(findTestObject("CheckoutPage/text_ItemTotal")): Text of object 'Object Repository/CheckoutPage/text_ItemTotal' is: 'Item total: $29.99'
+
+2020-12-18 02:30:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/CheckoutPage/text_ItemTotal' is: 'Item total: $29.99'
+
+2020-12-18 02:30:29 - [TEST_STEP][PASSED] - tax = getText(findTestObject("CheckoutPage/text_Tax")): Text of object 'Object Repository/CheckoutPage/text_Tax' is: 'Tax: $2.40'
+
+2020-12-18 02:30:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/CheckoutPage/text_Tax' is: 'Tax: $2.40'
+
+2020-12-18 02:30:30 - [TEST_STEP][PASSED] - total = getText(findTestObject("CheckoutPage/text_Total")): Text of object 'Object Repository/CheckoutPage/text_Total' is: 'Total: $32.39'
+
+2020-12-18 02:30:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/CheckoutPage/text_Total' is: 'Total: $32.39'
+
+2020-12-18 02:30:30 - [TEST_STEP][PASSED] - click(findTestObject("CheckoutPage/button_Finish")): Object: 'Object Repository/CheckoutPage/button_Finish' is clicked on
+
+2020-12-18 02:30:30 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Finish' is clicked on
+
+2020-12-18 02:30:30 - [TEST_STEP][PASSED] - click(findTestObject("FinishPage/text_ThankYouForYourOrder")): Object: 'Object Repository/FinishPage/text_ThankYouForYourOrder' is clicked on
+
+2020-12-18 02:30:31 - [MESSAGE][PASSED] - Object: 'Object Repository/FinishPage/text_ThankYouForYourOrder' is clicked on
+
+2020-12-18 02:30:31 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-12-18 02:30:31 - [TEST_STEP][PASSED] - todaysDate = today.format("yyyMMMdd"): null
+
+2020-12-18 02:30:31 - [TEST_STEP][PASSED] - nowTime = today.format("HH:mms:s"): null
+
+2020-12-18 02:30:31 - [TEST_STEP][PASSED] - output = new java.io.File(output.txt): null
+
+2020-12-18 02:30:31 - [TEST_STEP][PASSED] - output.createNewFile(): null
+
+2020-12-18 02:30:31 - [TEST_STEP][PASSED] - text = text + $testID;$firstName;$lastName;$zip;$paymentInfo;$shippingInfo;$itemTotal;$tax;$total;$todaysDate;$nowTime
+: null
+
+2020-12-18 02:30:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 02:30:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PlaceOrder_DifferentZipCode" time="128.364" classname="Test Cases/PlaceOrder_DifferentZipCode" status="FAILED">
+         <failure type="FAILED" message="Test Cases/PlaceOrder_DifferentZipCode FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/YourCartPage/button_CheckOut'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at PlaceOrder_DifferentZipCode.run(PlaceOrder_DifferentZipCode:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608280162394.run(TempTestSuite1608280162394.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/YourCartPage/button_CheckOut' located by '//div[@id='cart_contents_container']/div/div[2]/a[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-12-18 02:30:32 - [TEST_CASE][FAILED] - Test Cases/PlaceOrder_DifferentZipCode: Test Cases/PlaceOrder_DifferentZipCode FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/YourCartPage/button_CheckOut'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at PlaceOrder_DifferentZipCode.run(PlaceOrder_DifferentZipCode:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608280162394.run(TempTestSuite1608280162394.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/YourCartPage/button_CheckOut' located by '//div[@id='cart_contents_container']/div/div[2]/a[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-12-18 02:30:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-12-18 02:30:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 02:30:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 02:30:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-18 02:30:36 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2020-12-18 02:30:38 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2020-12-18 02:30:38 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/input_UserName"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/LoginPage/input_UserName'
+
+2020-12-18 02:30:42 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/LoginPage/input_UserName'
+
+2020-12-18 02:30:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("LoginPage/input_Password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/LoginPage/input_Password'
+
+2020-12-18 02:30:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/input_Password'
+
+2020-12-18 02:30:44 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/button_Login")): Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2020-12-18 02:30:46 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2020-12-18 02:30:46 - [TEST_STEP][PASSED] - click(findTestObject("ProductCatalogPage/button_AddToOrder_SauceabsBackpack")): Object: 'Object Repository/ProductCatalogPage/button_AddToOrder_SauceabsBackpack' is clicked on
+
+2020-12-18 02:30:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductCatalogPage/button_AddToOrder_SauceabsBackpack' is clicked on
+
+2020-12-18 02:30:49 - [TEST_STEP][PASSED] - click(findTestObject("ProductCatalogPage/link_GoToCart")): Object: 'Object Repository/ProductCatalogPage/link_GoToCart' is clicked on
+
+2020-12-18 02:30:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductCatalogPage/link_GoToCart' is clicked on
+
+2020-12-18 02:30:51 - [TEST_STEP][FAILED] - click(findTestObject("YourCartPage/button_CheckOut")): Unable to click on object 'Object Repository/YourCartPage/button_CheckOut' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/YourCartPage/button_CheckOut'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at PlaceOrder_DifferentZipCode.run(PlaceOrder_DifferentZipCode:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608280162394.run(TempTestSuite1608280162394.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/YourCartPage/button_CheckOut' located by '//div[@id='cart_contents_container']/div/div[2]/a[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1608273266386.run(Script1608273266386.groovy:33)
+	... 13 more
+)
+
+2020-12-18 02:31:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='cart_contents_container']/div/div[2]/a[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-12-18 02:32:23 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2020-12-18 02:32:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/YourCartPage/button_CheckOut' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/YourCartPage/button_CheckOut'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at PlaceOrder_DifferentZipCode.run(PlaceOrder_DifferentZipCode:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608280162394.run(TempTestSuite1608280162394.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/YourCartPage/button_CheckOut' located by '//div[@id='cart_contents_container']/div/div[2]/a[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1608273266386.run(Script1608273266386.groovy:33)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2020-12-18 02:30:32 - [TEST_CASE][FAILED] - Test Cases/PlaceOrder_DifferentZipCode: Test Cases/PlaceOrder_DifferentZipCode FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/YourCartPage/button_CheckOut'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at PlaceOrder_DifferentZipCode.run(PlaceOrder_DifferentZipCode:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608280162394.run(TempTestSuite1608280162394.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/YourCartPage/button_CheckOut' located by '//div[@id='cart_contents_container']/div/div[2]/a[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PlaceOrder_DifferentZipCode" time="118.628" classname="Test Cases/PlaceOrder_DifferentZipCode" status="FAILED">
+         <failure type="FAILED" message="Test Cases/PlaceOrder_DifferentZipCode FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'UI' of object 'Object Repository/YourInformationPage/input_FirstName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:977)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at PlaceOrder_DifferentZipCode.run(PlaceOrder_DifferentZipCode:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608280162394.run(TempTestSuite1608280162394.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/YourInformationPage/input_FirstName' located by '//input[@id='first-name']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-12-18 02:32:40 - [TEST_CASE][FAILED] - Test Cases/PlaceOrder_DifferentZipCode: Test Cases/PlaceOrder_DifferentZipCode FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'UI' of object 'Object Repository/YourInformationPage/input_FirstName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:977)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at PlaceOrder_DifferentZipCode.run(PlaceOrder_DifferentZipCode:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608280162394.run(TempTestSuite1608280162394.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/YourInformationPage/input_FirstName' located by '//input[@id='first-name']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-12-18 02:32:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-12-18 02:32:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-12-18 02:32:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 02:32:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 02:32:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-18 02:32:45 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2020-12-18 02:32:47 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2020-12-18 02:32:47 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/input_UserName"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/LoginPage/input_UserName'
+
+2020-12-18 02:32:51 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/LoginPage/input_UserName'
+
+2020-12-18 02:32:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("LoginPage/input_Password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/LoginPage/input_Password'
+
+2020-12-18 02:32:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/input_Password'
+
+2020-12-18 02:32:53 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/button_Login")): Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2020-12-18 02:32:56 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2020-12-18 02:32:56 - [TEST_STEP][PASSED] - click(findTestObject("ProductCatalogPage/button_AddToOrder_SauceabsBackpack")): Object: 'Object Repository/ProductCatalogPage/button_AddToOrder_SauceabsBackpack' is clicked on
+
+2020-12-18 02:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductCatalogPage/button_AddToOrder_SauceabsBackpack' is clicked on
+
+2020-12-18 02:32:58 - [TEST_STEP][PASSED] - click(findTestObject("ProductCatalogPage/link_GoToCart")): Object: 'Object Repository/ProductCatalogPage/link_GoToCart' is clicked on
+
+2020-12-18 02:33:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductCatalogPage/link_GoToCart' is clicked on
+
+2020-12-18 02:33:00 - [TEST_STEP][PASSED] - click(findTestObject("YourCartPage/button_CheckOut")): Object: 'Object Repository/YourCartPage/button_CheckOut' is clicked on
+
+2020-12-18 02:33:02 - [MESSAGE][PASSED] - Object: 'Object Repository/YourCartPage/button_CheckOut' is clicked on
+
+2020-12-18 02:33:02 - [TEST_STEP][FAILED] - setText(findTestObject("YourInformationPage/input_FirstName"), firstName): Unable to set text 'UI' of object 'Object Repository/YourInformationPage/input_FirstName' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'UI' of object 'Object Repository/YourInformationPage/input_FirstName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:977)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at PlaceOrder_DifferentZipCode.run(PlaceOrder_DifferentZipCode:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608280162394.run(TempTestSuite1608280162394.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/YourInformationPage/input_FirstName' located by '//input[@id='first-name']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:977)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1608273266386.run(Script1608273266386.groovy:35)
+	... 13 more
+)
+
+2020-12-18 02:33:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='first-name']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-12-18 02:34:34 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2020-12-18 02:34:34 - [MESSAGE][FAILED] - Unable to set text 'UI' of object 'Object Repository/YourInformationPage/input_FirstName' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'UI' of object 'Object Repository/YourInformationPage/input_FirstName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:977)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at PlaceOrder_DifferentZipCode.run(PlaceOrder_DifferentZipCode:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608280162394.run(TempTestSuite1608280162394.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/YourInformationPage/input_FirstName' located by '//input[@id='first-name']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:977)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1608273266386.run(Script1608273266386.groovy:35)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2020-12-18 02:32:40 - [TEST_CASE][FAILED] - Test Cases/PlaceOrder_DifferentZipCode: Test Cases/PlaceOrder_DifferentZipCode FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'UI' of object 'Object Repository/YourInformationPage/input_FirstName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:977)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at PlaceOrder_DifferentZipCode.run(PlaceOrder_DifferentZipCode:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608280162394.run(TempTestSuite1608280162394.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/YourInformationPage/input_FirstName' located by '//input[@id='first-name']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PlaceOrder_DifferentZipCode" time="29.85" classname="Test Cases/PlaceOrder_DifferentZipCode" status="PASSED">
+         <system-out><![CDATA[2020-12-18 02:34:39 - [TEST_CASE][PASSED] - Test Cases/PlaceOrder_DifferentZipCode: Test Cases/PlaceOrder_DifferentZipCode
+
+2020-12-18 02:34:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-12-18 02:34:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-12-18 02:34:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 02:34:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 02:34:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-18 02:34:43 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2020-12-18 02:34:46 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2020-12-18 02:34:46 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/input_UserName"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/LoginPage/input_UserName'
+
+2020-12-18 02:34:50 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/LoginPage/input_UserName'
+
+2020-12-18 02:34:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("LoginPage/input_Password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/LoginPage/input_Password'
+
+2020-12-18 02:34:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/input_Password'
+
+2020-12-18 02:34:52 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/button_Login")): Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2020-12-18 02:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2020-12-18 02:34:54 - [TEST_STEP][PASSED] - click(findTestObject("ProductCatalogPage/button_AddToOrder_SauceabsBackpack")): Object: 'Object Repository/ProductCatalogPage/button_AddToOrder_SauceabsBackpack' is clicked on
+
+2020-12-18 02:34:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductCatalogPage/button_AddToOrder_SauceabsBackpack' is clicked on
+
+2020-12-18 02:34:56 - [TEST_STEP][PASSED] - click(findTestObject("ProductCatalogPage/link_GoToCart")): Object: 'Object Repository/ProductCatalogPage/link_GoToCart' is clicked on
+
+2020-12-18 02:34:58 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductCatalogPage/link_GoToCart' is clicked on
+
+2020-12-18 02:34:58 - [TEST_STEP][PASSED] - click(findTestObject("YourCartPage/button_CheckOut")): Object: 'Object Repository/YourCartPage/button_CheckOut' is clicked on
+
+2020-12-18 02:35:00 - [MESSAGE][PASSED] - Object: 'Object Repository/YourCartPage/button_CheckOut' is clicked on
+
+2020-12-18 02:35:00 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformationPage/input_FirstName"), firstName): Text 'UI' is set on object 'Object Repository/YourInformationPage/input_FirstName'
+
+2020-12-18 02:35:03 - [MESSAGE][PASSED] - Text 'UI' is set on object 'Object Repository/YourInformationPage/input_FirstName'
+
+2020-12-18 02:35:03 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformationPage/input_LastName"), lastName): Text 'Tester5' is set on object 'Object Repository/YourInformationPage/input_LastName'
+
+2020-12-18 02:35:04 - [MESSAGE][PASSED] - Text 'Tester5' is set on object 'Object Repository/YourInformationPage/input_LastName'
+
+2020-12-18 02:35:04 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformationPage/input_ZipCode"), zip): Text '55126' is set on object 'Object Repository/YourInformationPage/input_ZipCode'
+
+2020-12-18 02:35:04 - [MESSAGE][PASSED] - Text '55126' is set on object 'Object Repository/YourInformationPage/input_ZipCode'
+
+2020-12-18 02:35:04 - [TEST_STEP][PASSED] - click(findTestObject("YourInformationPage/button_Continue")): Object: 'Object Repository/YourInformationPage/button_Continue' is clicked on
+
+2020-12-18 02:35:05 - [MESSAGE][PASSED] - Object: 'Object Repository/YourInformationPage/button_Continue' is clicked on
+
+2020-12-18 02:35:05 - [TEST_STEP][PASSED] - paymentInfo = getText(findTestObject("CheckoutPage/text_PaymentInfo")): Text of object 'Object Repository/CheckoutPage/text_PaymentInfo' is: 'SauceCard #31337'
+
+2020-12-18 02:35:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/CheckoutPage/text_PaymentInfo' is: 'SauceCard #31337'
+
+2020-12-18 02:35:05 - [TEST_STEP][PASSED] - shippingInfo = getText(findTestObject("CheckoutPage/text_ShippingInfo")): Text of object 'Object Repository/CheckoutPage/text_ShippingInfo' is: 'FREE PONY EXPRESS DELIVERY!'
+
+2020-12-18 02:35:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/CheckoutPage/text_ShippingInfo' is: 'FREE PONY EXPRESS DELIVERY!'
+
+2020-12-18 02:35:06 - [TEST_STEP][PASSED] - itemTotal = getText(findTestObject("CheckoutPage/text_ItemTotal")): Text of object 'Object Repository/CheckoutPage/text_ItemTotal' is: 'Item total: $29.99'
+
+2020-12-18 02:35:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/CheckoutPage/text_ItemTotal' is: 'Item total: $29.99'
+
+2020-12-18 02:35:06 - [TEST_STEP][PASSED] - tax = getText(findTestObject("CheckoutPage/text_Tax")): Text of object 'Object Repository/CheckoutPage/text_Tax' is: 'Tax: $2.40'
+
+2020-12-18 02:35:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/CheckoutPage/text_Tax' is: 'Tax: $2.40'
+
+2020-12-18 02:35:06 - [TEST_STEP][PASSED] - total = getText(findTestObject("CheckoutPage/text_Total")): Text of object 'Object Repository/CheckoutPage/text_Total' is: 'Total: $32.39'
+
+2020-12-18 02:35:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/CheckoutPage/text_Total' is: 'Total: $32.39'
+
+2020-12-18 02:35:07 - [TEST_STEP][PASSED] - click(findTestObject("CheckoutPage/button_Finish")): Object: 'Object Repository/CheckoutPage/button_Finish' is clicked on
+
+2020-12-18 02:35:07 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Finish' is clicked on
+
+2020-12-18 02:35:07 - [TEST_STEP][PASSED] - click(findTestObject("FinishPage/text_ThankYouForYourOrder")): Object: 'Object Repository/FinishPage/text_ThankYouForYourOrder' is clicked on
+
+2020-12-18 02:35:08 - [MESSAGE][PASSED] - Object: 'Object Repository/FinishPage/text_ThankYouForYourOrder' is clicked on
+
+2020-12-18 02:35:08 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-12-18 02:35:08 - [TEST_STEP][PASSED] - todaysDate = today.format("yyyMMMdd"): null
+
+2020-12-18 02:35:08 - [TEST_STEP][PASSED] - nowTime = today.format("HH:mms:s"): null
+
+2020-12-18 02:35:08 - [TEST_STEP][PASSED] - output = new java.io.File(output.txt): null
+
+2020-12-18 02:35:08 - [TEST_STEP][PASSED] - output.createNewFile(): null
+
+2020-12-18 02:35:08 - [TEST_STEP][PASSED] - text = text + $testID;$firstName;$lastName;$zip;$paymentInfo;$shippingInfo;$itemTotal;$tax;$total;$todaysDate;$nowTime
+: null
+
+2020-12-18 02:35:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 02:35:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PlaceOrder_DifferentZipCode" time="16.835" classname="Test Cases/PlaceOrder_DifferentZipCode" status="PASSED">
+         <system-out><![CDATA[2020-12-18 02:35:09 - [TEST_CASE][PASSED] - Test Cases/PlaceOrder_DifferentZipCode: Test Cases/PlaceOrder_DifferentZipCode
+
+2020-12-18 02:35:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-12-18 02:35:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 02:35:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 02:35:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-18 02:35:12 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2020-12-18 02:35:13 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2020-12-18 02:35:13 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/input_UserName"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/LoginPage/input_UserName'
+
+2020-12-18 02:35:14 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/LoginPage/input_UserName'
+
+2020-12-18 02:35:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("LoginPage/input_Password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/LoginPage/input_Password'
+
+2020-12-18 02:35:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/input_Password'
+
+2020-12-18 02:35:15 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/button_Login")): Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2020-12-18 02:35:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2020-12-18 02:35:15 - [TEST_STEP][PASSED] - click(findTestObject("ProductCatalogPage/button_AddToOrder_SauceabsBackpack")): Object: 'Object Repository/ProductCatalogPage/button_AddToOrder_SauceabsBackpack' is clicked on
+
+2020-12-18 02:35:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductCatalogPage/button_AddToOrder_SauceabsBackpack' is clicked on
+
+2020-12-18 02:35:16 - [TEST_STEP][PASSED] - click(findTestObject("ProductCatalogPage/link_GoToCart")): Object: 'Object Repository/ProductCatalogPage/link_GoToCart' is clicked on
+
+2020-12-18 02:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductCatalogPage/link_GoToCart' is clicked on
+
+2020-12-18 02:35:19 - [TEST_STEP][PASSED] - click(findTestObject("YourCartPage/button_CheckOut")): Object: 'Object Repository/YourCartPage/button_CheckOut' is clicked on
+
+2020-12-18 02:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/YourCartPage/button_CheckOut' is clicked on
+
+2020-12-18 02:35:19 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformationPage/input_FirstName"), firstName): Text 'UI' is set on object 'Object Repository/YourInformationPage/input_FirstName'
+
+2020-12-18 02:35:20 - [MESSAGE][PASSED] - Text 'UI' is set on object 'Object Repository/YourInformationPage/input_FirstName'
+
+2020-12-18 02:35:20 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformationPage/input_LastName"), lastName): Text 'Tester6' is set on object 'Object Repository/YourInformationPage/input_LastName'
+
+2020-12-18 02:35:21 - [MESSAGE][PASSED] - Text 'Tester6' is set on object 'Object Repository/YourInformationPage/input_LastName'
+
+2020-12-18 02:35:21 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformationPage/input_ZipCode"), zip): Text '11111' is set on object 'Object Repository/YourInformationPage/input_ZipCode'
+
+2020-12-18 02:35:21 - [MESSAGE][PASSED] - Text '11111' is set on object 'Object Repository/YourInformationPage/input_ZipCode'
+
+2020-12-18 02:35:21 - [TEST_STEP][PASSED] - click(findTestObject("YourInformationPage/button_Continue")): Object: 'Object Repository/YourInformationPage/button_Continue' is clicked on
+
+2020-12-18 02:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/YourInformationPage/button_Continue' is clicked on
+
+2020-12-18 02:35:22 - [TEST_STEP][PASSED] - paymentInfo = getText(findTestObject("CheckoutPage/text_PaymentInfo")): Text of object 'Object Repository/CheckoutPage/text_PaymentInfo' is: 'SauceCard #31337'
+
+2020-12-18 02:35:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/CheckoutPage/text_PaymentInfo' is: 'SauceCard #31337'
+
+2020-12-18 02:35:22 - [TEST_STEP][PASSED] - shippingInfo = getText(findTestObject("CheckoutPage/text_ShippingInfo")): Text of object 'Object Repository/CheckoutPage/text_ShippingInfo' is: 'FREE PONY EXPRESS DELIVERY!'
+
+2020-12-18 02:35:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/CheckoutPage/text_ShippingInfo' is: 'FREE PONY EXPRESS DELIVERY!'
+
+2020-12-18 02:35:23 - [TEST_STEP][PASSED] - itemTotal = getText(findTestObject("CheckoutPage/text_ItemTotal")): Text of object 'Object Repository/CheckoutPage/text_ItemTotal' is: 'Item total: $29.99'
+
+2020-12-18 02:35:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/CheckoutPage/text_ItemTotal' is: 'Item total: $29.99'
+
+2020-12-18 02:35:23 - [TEST_STEP][PASSED] - tax = getText(findTestObject("CheckoutPage/text_Tax")): Text of object 'Object Repository/CheckoutPage/text_Tax' is: 'Tax: $2.40'
+
+2020-12-18 02:35:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/CheckoutPage/text_Tax' is: 'Tax: $2.40'
+
+2020-12-18 02:35:23 - [TEST_STEP][PASSED] - total = getText(findTestObject("CheckoutPage/text_Total")): Text of object 'Object Repository/CheckoutPage/text_Total' is: 'Total: $32.39'
+
+2020-12-18 02:35:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/CheckoutPage/text_Total' is: 'Total: $32.39'
+
+2020-12-18 02:35:24 - [TEST_STEP][PASSED] - click(findTestObject("CheckoutPage/button_Finish")): Object: 'Object Repository/CheckoutPage/button_Finish' is clicked on
+
+2020-12-18 02:35:24 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Finish' is clicked on
+
+2020-12-18 02:35:24 - [TEST_STEP][PASSED] - click(findTestObject("FinishPage/text_ThankYouForYourOrder")): Object: 'Object Repository/FinishPage/text_ThankYouForYourOrder' is clicked on
+
+2020-12-18 02:35:25 - [MESSAGE][PASSED] - Object: 'Object Repository/FinishPage/text_ThankYouForYourOrder' is clicked on
+
+2020-12-18 02:35:25 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-12-18 02:35:25 - [TEST_STEP][PASSED] - todaysDate = today.format("yyyMMMdd"): null
+
+2020-12-18 02:35:25 - [TEST_STEP][PASSED] - nowTime = today.format("HH:mms:s"): null
+
+2020-12-18 02:35:25 - [TEST_STEP][PASSED] - output = new java.io.File(output.txt): null
+
+2020-12-18 02:35:25 - [TEST_STEP][PASSED] - output.createNewFile(): null
+
+2020-12-18 02:35:25 - [TEST_STEP][PASSED] - text = text + $testID;$firstName;$lastName;$zip;$paymentInfo;$shippingInfo;$itemTotal;$tax;$total;$todaysDate;$nowTime
+: null
+
+2020-12-18 02:35:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 02:35:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-12-18 02:29:27 - [TEST_SUITE][INCOMPLETE] - Demo: null]]></system-out>
+      <system-err><![CDATA[2020-12-18 02:29:27 - [TEST_SUITE][INCOMPLETE] - Demo: null]]></system-err>
+   </testsuite>
+</testsuites>

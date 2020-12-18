@@ -1,0 +1,81 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo,Chrome 87.0.4280.88,,,2020-12-18 02:50:17,2020-12-18 02:51:20,1m - 3.192s,PASSED
+,,,,,,,
+Test Cases/Login_ValidUserNameInvalidPassword,Chrome 87.0.4280.88,,,2020-12-18 02:50:18,2020-12-18 02:50:28,9.356s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.88,,,2020-12-18 02:50:19,2020-12-18 02:50:24,4.840s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 87.0.4280.88,,,2020-12-18 02:50:24,2020-12-18 02:50:25,1.005s,PASSED
+"setText(findTestObject(""LoginPage/input_UserName""), ""standard_user"")",Chrome 87.0.4280.88,,,2020-12-18 02:50:25,2020-12-18 02:50:26,0.896s,PASSED
+"setEncryptedText(findTestObject(""LoginPage/input_Password""), ""vOA0cDqQbrFcFaFUEJlNrQ=="")",Chrome 87.0.4280.88,,,2020-12-18 02:50:26,2020-12-18 02:50:26,0.497s,PASSED
+"click(findTestObject(""LoginPage/button_Login""))",Chrome 87.0.4280.88,,,2020-12-18 02:50:26,2020-12-18 02:50:26,0.376s,PASSED
+"click(findTestObject(""LoginPage/message_UseNameAndPasswordDoNotMatch""))",Chrome 87.0.4280.88,,,2020-12-18 02:50:26,2020-12-18 02:50:27,0.454s,PASSED
+closeBrowser(),Chrome 87.0.4280.88,,,2020-12-18 02:50:27,2020-12-18 02:50:28,0.747s,PASSED
+,,,,,,,
+Test Cases/Login_ValidUserNameValidPassword,Chrome 87.0.4280.88,,,2020-12-18 02:50:28,2020-12-18 02:50:46,18.149s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.88,,,2020-12-18 02:50:28,2020-12-18 02:50:32,3.759s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 87.0.4280.88,,,2020-12-18 02:50:32,2020-12-18 02:50:33,0.895s,PASSED
+"setText(findTestObject(""LoginPage/input_UserName""), ""standard_user"")",Chrome 87.0.4280.88,,,2020-12-18 02:50:33,2020-12-18 02:50:33,0.784s,PASSED
+"setEncryptedText(findTestObject(""LoginPage/input_Password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 87.0.4280.88,,,2020-12-18 02:50:33,2020-12-18 02:50:34,0.434s,PASSED
+"click(findTestObject(""LoginPage/button_Login""))",Chrome 87.0.4280.88,,,2020-12-18 02:50:34,2020-12-18 02:50:35,0.663s,PASSED
+today = new java.util.Date(),Chrome 87.0.4280.88,,,2020-12-18 02:50:35,2020-12-18 02:50:35,0.010s,PASSED
+"todaysDate = today.format(""ddMMMyyyy"")",Chrome 87.0.4280.88,,,2020-12-18 02:50:35,2020-12-18 02:50:35,0.009s,PASSED
+"nowTime = today.format(""HHmmss"")",Chrome 87.0.4280.88,,,2020-12-18 02:50:35,2020-12-18 02:50:35,0.002s,PASSED
+"takeFullPageScreenshot(""Screenshots/screenshotAfterLogin"" + todaysDate + ""_"" + nowTime + "".png"")",Chrome 87.0.4280.88,,,2020-12-18 02:50:35,2020-12-18 02:50:45,10.515s,PASSED
+closeBrowser(),Chrome 87.0.4280.88,,,2020-12-18 02:50:45,2020-12-18 02:50:46,0.770s,PASSED
+,,,,,,,
+Test Cases/PlaceOrder_DifferentZipCode,Chrome 87.0.4280.88,,,2020-12-18 02:50:46,2020-12-18 02:51:03,17.090s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.88,,,2020-12-18 02:50:46,2020-12-18 02:50:50,3.749s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 87.0.4280.88,,,2020-12-18 02:50:50,2020-12-18 02:50:51,0.973s,PASSED
+"setText(findTestObject(""LoginPage/input_UserName""), ""standard_user"")",Chrome 87.0.4280.88,,,2020-12-18 02:50:51,2020-12-18 02:50:52,0.786s,PASSED
+"setEncryptedText(findTestObject(""LoginPage/input_Password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 87.0.4280.88,,,2020-12-18 02:50:52,2020-12-18 02:50:52,0.422s,PASSED
+"click(findTestObject(""LoginPage/button_Login""))",Chrome 87.0.4280.88,,,2020-12-18 02:50:52,2020-12-18 02:50:53,0.653s,PASSED
+"click(findTestObject(""ProductCatalogPage/button_AddToOrder_SauceabsBackpack""))",Chrome 87.0.4280.88,,,2020-12-18 02:50:53,2020-12-18 02:50:54,0.563s,PASSED
+"click(findTestObject(""ProductCatalogPage/link_GoToCart""))",Chrome 87.0.4280.88,,,2020-12-18 02:50:54,2020-12-18 02:50:57,3.003s,PASSED
+"click(findTestObject(""YourCartPage/button_CheckOut""))",Chrome 87.0.4280.88,,,2020-12-18 02:50:57,2020-12-18 02:50:57,0.576s,PASSED
+"setText(findTestObject(""YourInformationPage/input_FirstName""), firstName)",Chrome 87.0.4280.88,,,2020-12-18 02:50:57,2020-12-18 02:50:58,0.759s,PASSED
+"setText(findTestObject(""YourInformationPage/input_LastName""), lastName)",Chrome 87.0.4280.88,,,2020-12-18 02:50:58,2020-12-18 02:50:59,0.646s,PASSED
+"setText(findTestObject(""YourInformationPage/input_ZipCode""), zip)",Chrome 87.0.4280.88,,,2020-12-18 02:50:59,2020-12-18 02:50:59,0.646s,PASSED
+"click(findTestObject(""YourInformationPage/button_Continue""))",Chrome 87.0.4280.88,,,2020-12-18 02:50:59,2020-12-18 02:51:00,0.520s,PASSED
+"paymentInfo = getText(findTestObject(""CheckoutPage/text_PaymentInfo""))",Chrome 87.0.4280.88,,,2020-12-18 02:51:00,2020-12-18 02:51:00,0.454s,PASSED
+"shippingInfo = getText(findTestObject(""CheckoutPage/text_ShippingInfo""))",Chrome 87.0.4280.88,,,2020-12-18 02:51:00,2020-12-18 02:51:00,0.311s,PASSED
+"itemTotal = getText(findTestObject(""CheckoutPage/text_ItemTotal""))",Chrome 87.0.4280.88,,,2020-12-18 02:51:00,2020-12-18 02:51:01,0.322s,PASSED
+"tax = getText(findTestObject(""CheckoutPage/text_Tax""))",Chrome 87.0.4280.88,,,2020-12-18 02:51:01,2020-12-18 02:51:01,0.324s,PASSED
+"total = getText(findTestObject(""CheckoutPage/text_Total""))",Chrome 87.0.4280.88,,,2020-12-18 02:51:01,2020-12-18 02:51:01,0.333s,PASSED
+"click(findTestObject(""CheckoutPage/button_Finish""))",Chrome 87.0.4280.88,,,2020-12-18 02:51:01,2020-12-18 02:51:02,0.466s,PASSED
+"click(findTestObject(""FinishPage/text_ThankYouForYourOrder""))",Chrome 87.0.4280.88,,,2020-12-18 02:51:02,2020-12-18 02:51:02,0.450s,PASSED
+today = new java.util.Date(),Chrome 87.0.4280.88,,,2020-12-18 02:51:02,2020-12-18 02:51:02,0.000s,PASSED
+"todaysDate = today.format(""yyyMMMdd"")",Chrome 87.0.4280.88,,,2020-12-18 02:51:02,2020-12-18 02:51:02,0.000s,PASSED
+"nowTime = today.format(""HH:mms:s"")",Chrome 87.0.4280.88,,,2020-12-18 02:51:02,2020-12-18 02:51:02,0.001s,PASSED
+output = new java.io.File(output.txt),Chrome 87.0.4280.88,,,2020-12-18 02:51:02,2020-12-18 02:51:02,0.000s,PASSED
+output.createNewFile(),Chrome 87.0.4280.88,,,2020-12-18 02:51:02,2020-12-18 02:51:02,0.001s,PASSED
+"text = text + $testID;$firstName;$lastName;$zip;$paymentInfo;$shippingInfo;$itemTotal;$tax;$total;$todaysDate;$nowTime
+",Chrome 87.0.4280.88,,,2020-12-18 02:51:02,2020-12-18 02:51:02,0.016s,PASSED
+closeBrowser(),Chrome 87.0.4280.88,,,2020-12-18 02:51:02,2020-12-18 02:51:03,0.746s,PASSED
+,,,,,,,
+Test Cases/PlaceOrder_DifferentZipCode,Chrome 87.0.4280.88,,,2020-12-18 02:51:03,2020-12-18 02:51:20,16.841s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.88,,,2020-12-18 02:51:03,2020-12-18 02:51:07,3.825s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 87.0.4280.88,,,2020-12-18 02:51:07,2020-12-18 02:51:08,0.877s,PASSED
+"setText(findTestObject(""LoginPage/input_UserName""), ""standard_user"")",Chrome 87.0.4280.88,,,2020-12-18 02:51:08,2020-12-18 02:51:09,0.781s,PASSED
+"setEncryptedText(findTestObject(""LoginPage/input_Password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 87.0.4280.88,,,2020-12-18 02:51:09,2020-12-18 02:51:09,0.411s,PASSED
+"click(findTestObject(""LoginPage/button_Login""))",Chrome 87.0.4280.88,,,2020-12-18 02:51:09,2020-12-18 02:51:10,0.661s,PASSED
+"click(findTestObject(""ProductCatalogPage/button_AddToOrder_SauceabsBackpack""))",Chrome 87.0.4280.88,,,2020-12-18 02:51:10,2020-12-18 02:51:10,0.482s,PASSED
+"click(findTestObject(""ProductCatalogPage/link_GoToCart""))",Chrome 87.0.4280.88,,,2020-12-18 02:51:10,2020-12-18 02:51:13,3.168s,PASSED
+"click(findTestObject(""YourCartPage/button_CheckOut""))",Chrome 87.0.4280.88,,,2020-12-18 02:51:13,2020-12-18 02:51:14,0.630s,PASSED
+"setText(findTestObject(""YourInformationPage/input_FirstName""), firstName)",Chrome 87.0.4280.88,,,2020-12-18 02:51:14,2020-12-18 02:51:15,0.811s,PASSED
+"setText(findTestObject(""YourInformationPage/input_LastName""), lastName)",Chrome 87.0.4280.88,,,2020-12-18 02:51:15,2020-12-18 02:51:16,0.644s,PASSED
+"setText(findTestObject(""YourInformationPage/input_ZipCode""), zip)",Chrome 87.0.4280.88,,,2020-12-18 02:51:16,2020-12-18 02:51:16,0.649s,PASSED
+"click(findTestObject(""YourInformationPage/button_Continue""))",Chrome 87.0.4280.88,,,2020-12-18 02:51:16,2020-12-18 02:51:17,0.467s,PASSED
+"paymentInfo = getText(findTestObject(""CheckoutPage/text_PaymentInfo""))",Chrome 87.0.4280.88,,,2020-12-18 02:51:17,2020-12-18 02:51:17,0.445s,PASSED
+"shippingInfo = getText(findTestObject(""CheckoutPage/text_ShippingInfo""))",Chrome 87.0.4280.88,,,2020-12-18 02:51:17,2020-12-18 02:51:17,0.312s,PASSED
+"itemTotal = getText(findTestObject(""CheckoutPage/text_ItemTotal""))",Chrome 87.0.4280.88,,,2020-12-18 02:51:17,2020-12-18 02:51:18,0.310s,PASSED
+"tax = getText(findTestObject(""CheckoutPage/text_Tax""))",Chrome 87.0.4280.88,,,2020-12-18 02:51:18,2020-12-18 02:51:18,0.308s,PASSED
+"total = getText(findTestObject(""CheckoutPage/text_Total""))",Chrome 87.0.4280.88,,,2020-12-18 02:51:18,2020-12-18 02:51:18,0.308s,PASSED
+"click(findTestObject(""CheckoutPage/button_Finish""))",Chrome 87.0.4280.88,,,2020-12-18 02:51:18,2020-12-18 02:51:19,0.478s,PASSED
+"click(findTestObject(""FinishPage/text_ThankYouForYourOrder""))",Chrome 87.0.4280.88,,,2020-12-18 02:51:19,2020-12-18 02:51:19,0.451s,PASSED
+today = new java.util.Date(),Chrome 87.0.4280.88,,,2020-12-18 02:51:19,2020-12-18 02:51:19,0.001s,PASSED
+"todaysDate = today.format(""yyyMMMdd"")",Chrome 87.0.4280.88,,,2020-12-18 02:51:19,2020-12-18 02:51:19,0.000s,PASSED
+"nowTime = today.format(""HH:mms:s"")",Chrome 87.0.4280.88,,,2020-12-18 02:51:19,2020-12-18 02:51:19,0.001s,PASSED
+output = new java.io.File(output.txt),Chrome 87.0.4280.88,,,2020-12-18 02:51:19,2020-12-18 02:51:19,0.000s,PASSED
+output.createNewFile(),Chrome 87.0.4280.88,,,2020-12-18 02:51:19,2020-12-18 02:51:19,0.001s,PASSED
+"text = text + $testID;$firstName;$lastName;$zip;$paymentInfo;$shippingInfo;$itemTotal;$tax;$total;$todaysDate;$nowTime
+",Chrome 87.0.4280.88,,,2020-12-18 02:51:19,2020-12-18 02:51:19,0.002s,PASSED
+closeBrowser(),Chrome 87.0.4280.88,,,2020-12-18 02:51:19,2020-12-18 02:51:20,0.735s,PASSED
